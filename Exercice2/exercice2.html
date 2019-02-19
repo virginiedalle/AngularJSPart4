@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="fr" dir="ltr" ng-app="carsApp">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercice 2</title>
+  <link rel="stylesheet" href="assets/css/exercice.css" />
+</head>
+<body ng-controller="carsCtrl">
+  <ul>
+    <li ng-repeat= "car in cars">
+      {{car.marque}} - <em>{{car.couleur}}</em>
+    </li>
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="fr" dir="ltr" ng-app="">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercice 6</title>
+  <link rel="stylesheet" href="assets/css/exercice.css" />
+</head>
+<body>
+  <button type="button" ng-click="paragraph = true" >Korrigan</button>
+  <button type="button" ng-click="paragraph = false" >Elfe</button>
+  <p ng-show="paragraph" >Le korrigan est une créature légendaire de Bretagne, comparable au lutin. Bienveillant ou malveillant selon les cas, il peut faire preuve d'une extrême générosité, mais est capable d'horribles vengeances. </p>
+  <p ng-hide="paragraph" >Un elfe est une créature légendaire anthropomorphe dont l'apparence, le rôle et la symbolique peuvent être très divers. À l'origine, il s'agissait d'êtres de la mythologie nordique, dont le souvenir dure toujours dans le folklore scandinave. Les elfes étaient originellement des divinités mineures de la nature et de la fertilité. On les retrouve dans la mythologie celtique, puisque quelques textes irlandais et écossais les évoquent. </p>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</body>
+</html>
+<!-- On cache un paragraphe pendant que l'autre s'affiche. -->

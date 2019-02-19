@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="fr" dir="ltr" ng-app="">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercice 1</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <link rel="stylesheet" href="assets/css/exercice.css" />
+</head>
+<body>
+  <div>
+    <button type="button" name="button" id="buttonAdd" ng-click=" count = count + 1" ng-init="count=0">+</button>
+    <button type="button" name="button" id="buttonLess" ng-click=" count = count - 1" ng-init="count=0">-</button>
+    <p>{{count}}</p>
+  </div>
+</body>
+</html>

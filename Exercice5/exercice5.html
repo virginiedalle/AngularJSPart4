@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="fr" dir="ltr" ng-app="">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercice 5</title>
+  <link rel="stylesheet" href="assets/css/exercice.css" />
+</head>
+<body>
+  <button type="button" name="buttonShow" ng-click="paragraph = false" >Afficher</button>
+  <button type="button" name="buttonHide" ng-click="paragraph = true" >Cacher</button>
+  <p ng-show="paragraph" ng-hide="paragraph">Le korrigan est une créature légendaire de Bretagne, comparable au lutin. Bienveillant ou malveillant selon les cas, il peut faire preuve d'une extrême générosité, mais est capable d'horribles vengeances. </p>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</body>
+</html>
+<!--
+Par défaut (faux) ça s'affiche, si on met vrai, ça se cache. Le mettre dans le bouton click.
+Dans le paragraphe, mettre ng-show et ng-hide pour que ça soit relié aux boutons. -->
